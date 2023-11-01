@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Home Page Styles */
+.about-us {
+    background: url(bugatti.jpeg);
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.about-pic{
+    background: url(bugatti\ about.png);
+    background-size: cover;
+    height: 687px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-products {
+    text-align: center;
+}
+
+.check-products img {
+    width: 80%;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Products Page Styles */
+.product {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: lavender;
+}
+
+
+/* Contact Page Styles */
+.contact {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-box {
+    align-items: start;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact-box img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
